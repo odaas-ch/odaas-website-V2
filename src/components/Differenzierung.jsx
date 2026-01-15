@@ -47,7 +47,7 @@ function Differenzierung() {
             <p className="text-slate-300 text-lg mb-8">
               oDaaS arbeitet nicht rein KI-basiert. Beim ersten Mal analysiert die KI die Aufgabe
               und zerlegt sie in einzelne Schritte. Diese werden gespeichert. Bei jeder weiteren
-              Ausführung läuft der Workflow deterministisch ab – ohne KI.
+              Ausführung läuft der Workflow deterministisch ab. Ohne KI.
             </p>
 
             {/* Features */}

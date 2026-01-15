@@ -14,7 +14,16 @@
       "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" commit -m \"$\\(cat <<''EOF''\nSimplify website: light mode, anonymize, focus on demo\n\n- Switch from dark to light theme\n- Remove team names, emails, and advisor \\(anonymize\\)\n- Remove pricing section and BDO partner\n- Simplify Solution section to one sentence\n- Keep Demo prominent for visual explanation\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" push)",
       "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" add src/pages/DemoPage.jsx)",
-      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" commit -m \"$\\(cat <<''EOF''\nImprove demo page UX: scroll to top on load, scroll to chat on scenario select\n\n- Scroll to top when demo page loads \\(fixes landing at bottom issue\\)\n- Auto-scroll to chat section when selecting a scenario \\(useful on mobile\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" commit -m \"$\\(cat <<''EOF''\nImprove demo page UX: scroll to top on load, scroll to chat on scenario select\n\n- Scroll to top when demo page loads \\(fixes landing at bottom issue\\)\n- Auto-scroll to chat section when selecting a scenario \\(useful on mobile\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" add src/components/Contact.jsx)",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" commit -m \"$\\(cat <<''EOF''\nUpdate contact section with email link\n\nReplace demo button with mailto:info@odaas.ch\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" add:*)",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" commit -m \"$\\(cat <<''EOF''\nConfigure custom domain odaas.ch\n\n- Add CNAME file for GitHub Pages custom domain\n- Update vite base path from /odaas-website-V2/ to /\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh run watch:*)",
+      "Bash(del \"c:\\\\Users\\\\miche\\\\Documents\\\\odaas-website\\\\src\\\\pages\\\\ProductPage.jsx\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nSimplify website structure and remove HSLU references\n\n- Integrate ProductPage features into main landing page\n- Remove separate Produkt page and navigation links\n- Add new Features component \\(5 tiles, 3+2 layout\\)\n- Remove all HSLU/Hochschule Luzern references\n- Replace contact buttons with direct email \\(info@odaas.ch\\)\n- Remove dashes, fix gender-neutral language\n- Clean up footer with simplified navigation\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }

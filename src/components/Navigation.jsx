@@ -50,17 +50,11 @@ function Navigation() {
                 <button onClick={() => scrollToSection('how-it-works')} className="text-slate-600 hover:text-primary-600 transition-colors">
                   So funktioniert's
                 </button>
-                <button onClick={() => scrollToSection('pricing')} className="text-slate-600 hover:text-primary-600 transition-colors">
-                  Preise
-                </button>
                 <button onClick={() => scrollToSection('about')} className="text-slate-600 hover:text-primary-600 transition-colors">
                   Über oDaaS
                 </button>
               </>
             )}
-            <Link to="/produkt" className="text-slate-600 hover:text-primary-600 transition-colors">
-              Produkt
-            </Link>
             <Link
               to="/demo"
               className="bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition-colors font-medium"
@@ -100,21 +94,11 @@ function Navigation() {
                   <button onClick={() => scrollToSection('how-it-works')} className="text-left text-slate-600 hover:text-primary-600 transition-colors">
                     So funktioniert's
                   </button>
-                  <button onClick={() => scrollToSection('pricing')} className="text-left text-slate-600 hover:text-primary-600 transition-colors">
-                    Preise
-                  </button>
                   <button onClick={() => scrollToSection('about')} className="text-left text-slate-600 hover:text-primary-600 transition-colors">
                     Über oDaaS
                   </button>
                 </>
               )}
-              <Link
-                to="/produkt"
-                className="text-slate-600 hover:text-primary-600 transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Produkt
-              </Link>
               <Link
                 to="/demo"
                 className="bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition-colors font-medium text-center"

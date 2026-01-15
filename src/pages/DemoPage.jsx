@@ -678,6 +678,9 @@ function DemoPage() {
 
         {/* Scenario Selection */}
         <div className="max-w-6xl mx-auto px-4 mb-8">
+          <h2 className="text-xl font-semibold text-white mb-6 text-center">
+            Wählen Sie ein Szenario aus:
+          </h2>
           <div className="grid md:grid-cols-3 gap-4">
             {demoScenarios.map((scenario, index) => (
               <button
@@ -922,23 +925,15 @@ function DemoPage() {
                 Kontaktieren Sie uns für eine persönliche Demo mit Ihren echten Business-Systemen
                 und sehen Sie, wie viel Zeit Sie sparen können.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="/#contact"
-                  className="inline-flex items-center justify-center gap-2 bg-white text-primary-600 px-8 py-4 rounded-xl hover:bg-white/90 transition-all font-semibold shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-                >
-                  Kontakt aufnehmen
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </a>
-                <a
-                  href="/produkt"
-                  className="inline-flex items-center justify-center gap-2 bg-white/10 text-white px-8 py-4 rounded-xl hover:bg-white/20 transition-all font-semibold border border-white/20"
-                >
-                  Mehr erfahren
-                </a>
-              </div>
+              <a
+                href="mailto:info@odaas.ch"
+                className="inline-flex items-center justify-center gap-2 bg-white text-primary-600 px-8 py-4 rounded-xl hover:bg-white/90 transition-all font-semibold shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+              >
+                info@odaas.ch
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </a>
             </div>
           </div>
         </div>

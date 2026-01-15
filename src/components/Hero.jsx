@@ -24,24 +24,16 @@ function Hero() {
 
           {/* Description */}
           <p className="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">
-            Verbinden Sie Ihre Business-Software und stellen Sie einfach Fragen – in Ihren Worten.
+            Verbinden Sie Ihre Business-Software und stellen Sie einfach Fragen. In Ihren Worten.
           </p>
 
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/demo"
-              className="bg-primary-600 text-white px-8 py-4 rounded-xl hover:bg-primary-700 transition-colors font-semibold text-lg glow-primary"
-            >
-              Demo ausprobieren
-            </Link>
-            <a
-              href="#how-it-works"
-              className="bg-white text-slate-700 px-8 py-4 rounded-xl hover:bg-slate-50 transition-colors font-semibold text-lg border border-slate-200"
-            >
-              So funktioniert's
-            </a>
-          </div>
+          {/* CTA */}
+          <Link
+            to="/demo"
+            className="inline-block bg-primary-600 text-white px-8 py-4 rounded-xl hover:bg-primary-700 transition-colors font-semibold text-lg glow-primary"
+          >
+            Demo ausprobieren
+          </Link>
 
         </div>
       </div>

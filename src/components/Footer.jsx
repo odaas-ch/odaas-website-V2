@@ -15,7 +15,7 @@ function Footer() {
             </Link>
             <p className="text-slate-500 max-w-md">
               KI-Integrationsplattform für Schweizer KMUs. Verbinden Sie Ihre Business-Software
-              und stellen Sie einfach Fragen – in Ihren Worten.
+              und stellen Sie einfach Fragen. In Ihren Worten.
             </p>
           </div>
 
@@ -24,7 +24,6 @@ function Footer() {
             <h3 className="font-semibold text-white mb-4">Navigation</h3>
             <ul className="space-y-2">
               <li><Link to="/" className="hover:text-primary-400 transition-colors">Home</Link></li>
-              <li><Link to="/produkt" className="hover:text-primary-400 transition-colors">Produkt</Link></li>
               <li><Link to="/demo" className="hover:text-primary-400 transition-colors">Demo</Link></li>
             </ul>
           </div>
@@ -32,16 +31,14 @@ function Footer() {
           {/* Contact */}
           <div>
             <h3 className="font-semibold text-white mb-4">Kontakt</h3>
-            <ul className="space-y-2 text-slate-500">
-              <li>HSLU - Hochschule Luzern</li>
-              <li>SmartUp Programm</li>
-              <li>Informatik</li>
-            </ul>
+            <a href="mailto:info@odaas.ch" className="text-slate-500 hover:text-primary-400 transition-colors">
+              info@odaas.ch
+            </a>
           </div>
         </div>
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-600 text-sm">
-          <p>&copy; {new Date().getFullYear()} oDaaS. Ein Projekt der Hochschule Luzern.</p>
+          <p>&copy; {new Date().getFullYear()} oDaaS.</p>
         </div>
       </div>
     </footer>

@@ -15,8 +15,7 @@ function About() {
 
           {/* Description */}
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            oDaaS entsteht an der Hochschule Luzern. Mit echten Schweizer KMUs
-            gesprochen und verstanden, wo der Schuh drückt.
+            Mit echten Schweizer KMUs gesprochen und verstanden, wo der Schuh drückt.
           </p>
         </div>
 
