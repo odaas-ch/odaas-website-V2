@@ -318,7 +318,13 @@ function DemoPage() {
   const [activeSystems, setActiveSystems] = useState([])
   const [progress, setProgress] = useState(0)
   const chatContainerRef = useRef(null)
+  const chatSectionRef = useRef(null)
   const playingRef = useRef(false)
+
+  // Scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const scrollToBottom = () => {
     if (chatContainerRef.current) {
@@ -341,6 +347,11 @@ function DemoPage() {
     setActiveSystems(scenario.systems || [])
     setMessages([])
     setProgress(0)
+
+    // Scroll to chat section (especially useful on mobile)
+    if (chatSectionRef.current) {
+      chatSectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
 
     await new Promise(r => setTimeout(r, 500))
 
@@ -734,7 +745,7 @@ function DemoPage() {
         </div>
 
         {/* Chat Interface */}
-        <div className="max-w-6xl mx-auto px-4">
+        <div ref={chatSectionRef} className="max-w-6xl mx-auto px-4 scroll-mt-4">
           <div className="bg-slate-800/50 backdrop-blur-xl rounded-3xl border border-white/10 overflow-hidden shadow-2xl">
             {/* Chat Header */}
             <div className="bg-slate-800/80 px-6 py-4 border-b border-white/10">
