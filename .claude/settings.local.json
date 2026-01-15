@@ -23,7 +23,8 @@
       "Bash(gh run view:*)",
       "Bash(gh run watch:*)",
       "Bash(del \"c:\\\\Users\\\\miche\\\\Documents\\\\odaas-website\\\\src\\\\pages\\\\ProductPage.jsx\")",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nSimplify website structure and remove HSLU references\n\n- Integrate ProductPage features into main landing page\n- Remove separate Produkt page and navigation links\n- Add new Features component \\(5 tiles, 3+2 layout\\)\n- Remove all HSLU/Hochschule Luzern references\n- Replace contact buttons with direct email \\(info@odaas.ch\\)\n- Remove dashes, fix gender-neutral language\n- Clean up footer with simplified navigation\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nSimplify website structure and remove HSLU references\n\n- Integrate ProductPage features into main landing page\n- Remove separate Produkt page and navigation links\n- Add new Features component \\(5 tiles, 3+2 layout\\)\n- Remove all HSLU/Hochschule Luzern references\n- Replace contact buttons with direct email \\(info@odaas.ch\\)\n- Remove dashes, fix gender-neutral language\n- Clean up footer with simplified navigation\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix demo status spinner to only show on active step\n\nShow spinning indicator only for the last message while playing,\ncompleted steps now show a green checkmark instead.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
