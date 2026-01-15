@@ -7,24 +7,24 @@ html {
 }
 
 body {
-  @apply antialiased bg-slate-950 text-slate-200;
+  @apply antialiased bg-white text-slate-700;
 }
 
-/* Custom scrollbar - dark */
+/* Custom scrollbar - light */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-slate-900;
+  @apply bg-slate-100;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-slate-700 rounded-full;
+  @apply bg-slate-300 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-slate-600;
+  @apply bg-slate-400;
 }
 
 /* Typing animation for demo */
@@ -67,9 +67,9 @@ body {
 
 /* Glow effect for buttons */
 .glow-primary {
-  box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25);
 }
 
 .glow-accent {
-  box-shadow: 0 0 20px rgba(20, 184, 166, 0.4);
+  box-shadow: 0 4px 14px rgba(20, 184, 166, 0.25);
 }

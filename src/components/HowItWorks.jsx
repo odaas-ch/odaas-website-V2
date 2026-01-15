@@ -33,16 +33,16 @@ function HowItWorks() {
   ]
 
   return (
-    <section id="how-it-works" className="py-16 md:py-24 bg-slate-950">
+    <section id="how-it-works" className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           {/* Section Label */}
-          <span className="text-primary-400 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-primary-600 font-semibold text-sm uppercase tracking-wider">
             So funktioniert's
           </span>
 
           {/* Headline */}
-          <h2 className="text-3xl md:text-4xl font-bold text-white mt-4 mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mt-4 mb-6">
             In drei Schritten startklar
           </h2>
         </div>
@@ -53,23 +53,23 @@ function HowItWorks() {
             <div key={step.number} className="relative">
               {/* Connector Line (hidden on mobile, visible on md+) */}
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-12 left-1/2 w-full h-0.5 bg-slate-800" />
+                <div className="hidden md:block absolute top-12 left-1/2 w-full h-0.5 bg-slate-200" />
               )}
 
-              <div className="relative bg-slate-900 rounded-2xl p-8 text-center border border-slate-800">
+              <div className="relative bg-slate-50 rounded-2xl p-8 text-center border border-slate-100">
                 {/* Number Badge */}
-                <div className="inline-flex items-center justify-center w-24 h-24 bg-primary-500/10 rounded-2xl mb-6 relative">
-                  <span className="text-primary-400">{step.icon}</span>
+                <div className="inline-flex items-center justify-center w-24 h-24 bg-primary-50 rounded-2xl mb-6 relative">
+                  <span className="text-primary-600">{step.icon}</span>
                   <span className="absolute -top-2 -right-2 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
                     {step.number}
                   </span>
                 </div>
 
-                <h3 className="text-xl font-bold text-white mb-3">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">
                   {step.title}
                 </h3>
 
-                <p className="text-slate-400">
+                <p className="text-slate-600">
                   {step.description}
                 </p>
               </div>
