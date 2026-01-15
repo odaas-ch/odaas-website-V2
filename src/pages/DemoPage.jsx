@@ -306,7 +306,7 @@ const demoScenarios = [
       { type: 'system', text: '💡 Empfehlung: StartupXY hat das höchste Wachstumspotenzial. Ein proaktives Gespräch über ihre Q2-Pläne könnte den Umsatz mehr als verdoppeln. Soll ich einen Termin im CRM anlegen?' },
       { type: 'user', text: 'Ja, lege einen Termin für nächste Woche an' },
       { type: 'status', text: 'Erstelle Termin in HubSpot...' },
-      { type: 'system', text: '✅ Termin erstellt:\n\n📅 Meeting: Wachstumsgespräch StartupXY\n🕐 Nächste Woche Dienstag, 14:00\n👤 Kontakt: M. Schneider (CEO)\n📝 Notiz: Q2 Skalierungspläne besprechen\n\nErinnerung wird 1 Tag vorher gesendet.' },
+      { type: 'system', text: '✅ Termin erstellt:\n\n📅 Meeting: Wachstumsgespräch StartupXY\n🕐 Nächste Woche Dienstag, 14:00\n👤 Kontakt: M. Schneider (Geschäftsleitung)\n📝 Notiz: Q2 Skalierungspläne besprechen\n\nErinnerung wird 1 Tag vorher gesendet.' },
     ],
   },
 ]

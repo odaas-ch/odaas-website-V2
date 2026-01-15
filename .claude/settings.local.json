@@ -5,7 +5,16 @@
       "Bash(npm install)",
       "Bash(npm run build:*)",
       "Bash(npm run dev:*)",
-      "Bash(timeout:*)"
+      "Bash(timeout:*)",
+      "Bash(git push:*)",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" status)",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" diff)",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" log --oneline -5)",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" add src/components/About.jsx src/components/Contact.jsx src/components/DemoPreview.jsx src/components/Differenzierung.jsx src/components/Hero.jsx src/components/HowItWorks.jsx src/components/Navigation.jsx src/components/Pricing.jsx src/components/Problem.jsx src/components/Solution.jsx src/index.css src/pages/LandingPage.jsx)",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" commit -m \"$\\(cat <<''EOF''\nSimplify website: light mode, anonymize, focus on demo\n\n- Switch from dark to light theme\n- Remove team names, emails, and advisor \\(anonymize\\)\n- Remove pricing section and BDO partner\n- Simplify Solution section to one sentence\n- Keep Demo prominent for visual explanation\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" push)",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" add src/pages/DemoPage.jsx)",
+      "Bash(git -C \"c:/Users/miche/Documents/odaas-website\" commit -m \"$\\(cat <<''EOF''\nImprove demo page UX: scroll to top on load, scroll to chat on scenario select\n\n- Scroll to top when demo page loads \\(fixes landing at bottom issue\\)\n- Auto-scroll to chat section when selecting a scenario \\(useful on mobile\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }

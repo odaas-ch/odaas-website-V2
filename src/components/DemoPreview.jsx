@@ -50,7 +50,7 @@ function DemoPreview() {
                       Das Team hat diese Woche insgesamt <strong className="text-slate-900">187 Stunden</strong> erfasst.
                     </p>
                     <div className="mt-2 text-xs text-slate-500">
-                      Sarah: 42h • Marco: 38h • Lisa: 41h • Thomas: 36h • Anna: 30h
+                      S. Müller: 42h • M. Weber: 38h • L. Schmid: 41h • T. Keller: 36h • A. Brunner: 30h
                     </div>
                   </div>
                 </div>

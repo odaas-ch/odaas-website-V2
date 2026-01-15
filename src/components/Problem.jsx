@@ -24,7 +24,7 @@ function Problem() {
           <p className="text-lg text-slate-600 mb-12">
             Jeden Abend eine Stunde am Computer. Zahlen von einem System ins andere übertragen.
             Am Monatsende wird es noch schlimmer: Stunden zusammenzählen, Löhne berechnen,
-            dem Treuhänder alles schicken. Und wenn ein Fehler passiert, fängt man von vorne an.
+            dem Treuhandbüro alles schicken. Und wenn ein Fehler passiert, fängt man von vorne an.
           </p>
         </div>
 
