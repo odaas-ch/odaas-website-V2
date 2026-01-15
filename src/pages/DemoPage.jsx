@@ -349,9 +349,14 @@ function DemoPage() {
     setProgress(0)
 
     // Scroll to chat section (especially useful on mobile)
-    if (chatSectionRef.current) {
-      chatSectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
+    setTimeout(() => {
+      if (chatSectionRef.current) {
+        const yOffset = -20 // Small offset from top
+        const element = chatSectionRef.current
+        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset
+        window.scrollTo({ top: y, behavior: 'smooth' })
+      }
+    }, 100)
 
     await new Promise(r => setTimeout(r, 500))
 
