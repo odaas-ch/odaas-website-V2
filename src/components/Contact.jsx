@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 function Contact() {
   return (
     <section id="contact" className="py-16 md:py-24 bg-slate-50">
@@ -17,19 +15,19 @@ function Contact() {
 
           {/* Description */}
           <p className="text-lg text-slate-600 mb-12">
-            Testen Sie die Demo und sehen Sie selbst, wie oDaaS in Ihrem Betrieb funktionieren kann.
+            Schreiben Sie uns eine E-Mail und wir melden uns bei Ihnen.
           </p>
 
           {/* CTA */}
-          <Link
-            to="/demo"
+          <a
+            href="mailto:info@odaas.ch"
             className="inline-flex items-center gap-2 bg-primary-600 text-white px-8 py-4 rounded-xl hover:bg-primary-700 transition-colors font-semibold text-lg glow-primary"
           >
-            Demo ausprobieren
+            info@odaas.ch
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-          </Link>
+          </a>
         </div>
       </div>
     </section>
