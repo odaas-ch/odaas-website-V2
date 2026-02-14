@@ -7,33 +7,47 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Brand Colors from Brand Guide
+        brand: {
+          // Swiss Red - Primary brand color #B00020
+          red: '#B00020',
+          'red-light': '#dc3d5a',
+          'red-dark': '#8a001b',
+          // Deep Black #1A1A1A
+          black: '#1A1A1A',
+          // Grays from Brand Guide
+          'gray-dark': '#333333',
+          'gray-medium': '#666666',
+          'gray-light': '#F5F5F5',
+          'gray-border': '#E0E0E0',
+        },
+        // Primary palette based on Swiss Red #B00020
         primary: {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e40af',
-          900: '#1e3a8a',
+          50: '#fdf2f4',
+          100: '#fce7ea',
+          200: '#f9d0d7',
+          300: '#f4a9b6',
+          400: '#ec7489',
+          500: '#dc3d5a',
+          600: '#B00020',  // Main Swiss Red
+          700: '#9a001b',
+          800: '#800317',
+          900: '#6d0718',
+          950: '#3d0009',
         },
-        accent: {
-          50: '#f0fdfa',
-          100: '#ccfbf1',
-          200: '#99f6e4',
-          300: '#5eead4',
-          400: '#2dd4bf',
-          500: '#14b8a6',
-          600: '#0d9488',
-          700: '#0f766e',
-          800: '#115e59',
-          900: '#134e4a',
-        },
+        // Functional colors from Brand Guide
+        success: '#2E7D32',
+        warning: '#F57C00',
+        error: '#C62828',
+        info: '#1565C0',
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['DM Sans', 'Arial', 'Helvetica', 'sans-serif'],
+        display: ['Playfair Display', 'Georgia', 'serif'],
+      },
+      borderRadius: {
+        'btn': '8px',
+        'card': '12px',
       },
     },
   },

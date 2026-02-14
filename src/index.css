@@ -7,7 +7,8 @@ html {
 }
 
 body {
-  @apply antialiased bg-white text-slate-700;
+  @apply antialiased bg-slate-50 text-slate-900 font-sans;
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
 }
 
 /* Custom scrollbar - light */
@@ -65,11 +66,36 @@ body {
   animation: fadeIn 0.3s ease-out forwards;
 }
 
-/* Glow effect for buttons */
+/* Glow effect for buttons - Swiss Red */
 .glow-primary {
-  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25);
+  box-shadow: 0 4px 14px rgba(176, 0, 32, 0.3);
+}
+
+.glow-primary:hover {
+  box-shadow: 0 6px 20px rgba(176, 0, 32, 0.4);
 }
 
 .glow-accent {
-  box-shadow: 0 4px 14px rgba(20, 184, 166, 0.25);
+  box-shadow: 0 4px 14px rgba(176, 0, 32, 0.25);
+}
+
+/* Fade in up animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Section label style */
+.section-label {
+  @apply inline-block px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-semibold uppercase tracking-wide mb-4 border border-primary-200;
 }

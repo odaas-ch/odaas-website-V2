@@ -32,12 +32,14 @@ function Navigation() {
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center gap-2"
+            className="flex items-center gap-3"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            <div className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">o</span>
-            </div>
+            <img
+              src="/black_2_medium.svg"
+              alt="oDaaS Logo"
+              className="h-8 w-auto"
+            />
             <span className="font-bold text-xl text-slate-900">oDaaS</span>
           </Link>
 

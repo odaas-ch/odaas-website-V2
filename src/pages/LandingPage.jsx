@@ -1,6 +1,5 @@
 import Hero from '../components/Hero'
-import Problem from '../components/Problem'
-import Solution from '../components/Solution'
+import ValueProp from '../components/ValueProp'
 import HowItWorks from '../components/HowItWorks'
 import DemoPreview from '../components/DemoPreview'
 import Features from '../components/Features'
@@ -12,13 +11,12 @@ function LandingPage() {
   return (
     <>
       <Hero />
-      <Problem />
-      <Solution />
+      <ValueProp />
       <HowItWorks />
+      <Differenzierung />
       <DemoPreview />
       <Features />
-      <Differenzierung />
-      <About />
+      {/* <About /> */}
       <Contact />
     </>
   )

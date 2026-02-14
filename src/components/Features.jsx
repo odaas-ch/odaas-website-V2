@@ -48,13 +48,13 @@ function Features() {
   ]
 
   return (
-    <section id="features" className="py-16 md:py-24 bg-white">
+    <section id="features" className="py-20 md:py-32 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-primary-600 font-semibold text-sm uppercase tracking-wider">
+          <span className="section-label">
             Funktionen
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mt-4 mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
             Alles was Sie brauchen
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
@@ -65,8 +65,11 @@ function Features() {
         {/* Erste Reihe: 3 Kacheln */}
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {features.slice(0, 3).map((feature) => (
-            <div key={feature.title} className="bg-slate-50 rounded-2xl p-6">
-              <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center text-primary-600 mb-4">
+            <div
+              key={feature.title}
+              className="bg-white rounded-card p-6 border border-slate-200 hover:border-primary-300 hover:shadow-lg transition-all"
+            >
+              <div className="w-12 h-12 bg-primary-100 rounded-card flex items-center justify-center text-primary-600 mb-4">
                 {feature.icon}
               </div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">{feature.title}</h3>
@@ -78,8 +81,11 @@ function Features() {
         {/* Zweite Reihe: 2 Kacheln zentriert */}
         <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
           {features.slice(3).map((feature) => (
-            <div key={feature.title} className="bg-slate-50 rounded-2xl p-6">
-              <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center text-primary-600 mb-4">
+            <div
+              key={feature.title}
+              className="bg-white rounded-card p-6 border border-slate-200 hover:border-primary-300 hover:shadow-lg transition-all"
+            >
+              <div className="w-12 h-12 bg-primary-100 rounded-card flex items-center justify-center text-primary-600 mb-4">
                 {feature.icon}
               </div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">{feature.title}</h3>
