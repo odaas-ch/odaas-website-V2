@@ -4,7 +4,7 @@ function ValueProp() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Main statement */}
         <p className="text-xl md:text-2xl text-slate-700 leading-relaxed mb-8">
-          <span className="font-semibold text-slate-900">oDaaS ist eine KI-gestützte Integrationsplattform</span>{' '}
+          <span className="font-semibold text-slate-900">oDaaS – Own Data as a Service – ist eine KI-gestützte Integrationsplattform</span>{' '}
           für Schweizer KMUs, die Ihre Business-Tools wie Buchhaltung, Zeiterfassung und Excel verbindet.
         </p>
 
